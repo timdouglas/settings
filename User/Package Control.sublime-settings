@@ -1,0 +1,32 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Babel",
+		"BufferScroll",
+		"Emmet",
+		"Handlebars",
+		"LESS",
+		"Markdown Extended",
+		"Markdown Preview",
+		"nginx",
+		"Package Control",
+		"Project Specific Syntax Settings",
+		"Quickfind",
+		"SideBarEnhancements",
+		"Simple Print Function",
+		"Stylus",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-contrib-lessc",
+		"SublimeLinter-json",
+		"Theme - Soda"
+	],
+	"repositories":
+	[
+		"https://github.com/fjl/Sublime-Erlang.git"
+	]
+}

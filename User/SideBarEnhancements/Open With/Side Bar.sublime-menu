@@ -1,0 +1,50 @@
+[
+	{"id": "side-bar-files-open-with",
+		"children":
+		[
+
+			//application 1
+			{
+				"caption": "Sublime",
+				"id": "side-bar-files-open-with-sublime",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "Sublime Text.app", // OSX
+									"extensions": ""  //open all even folders
+								}
+			},
+
+			//separator
+			//{"caption":"-"},
+
+			//application 2
+			{
+				"caption": "Chrome",
+				"id": "side-bar-files-open-with-chrome",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "Chrome.app",
+									"extensions":".*" //any file with extension
+								}
+			},
+
+			{"caption":"-"},
+
+			{
+				"caption": "Affinity",
+				"id": "side-bar-files-open-with-affinity",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "Affinity Photo.app",
+									"extensions":".*" //any file with extension
+								}
+			},
+		]
+	}
+]

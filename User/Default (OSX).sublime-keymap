@@ -1,0 +1,45 @@
+[
+  { "keys": ["super+enter"], "command": "find_under_expand" },
+  { "keys": ["super+k", "super+enter"], "command": "find_under_expand_skip" },
+  { "keys": ["super+shift+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line Before.sublime-macro"} },
+  { "keys": ["super+shift+k"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },
+  { "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+
+  { "keys": ["super+v"], "command": "paste_and_indent" },
+  { "keys": ["super+shift+v"], "command": "paste" },
+  
+  { "keys": ["super+shift+r"], "command": "goto_symbol_in_project" },
+
+  { "keys": ["home"], "command": "move_to", "args": {"to": "bol"} },
+  { "keys": ["end"], "command": "move_to", "args": {"to": "eol"} },
+  { "keys": ["shift+home"], "command": "move_to", "args": {"to": "bol", "extend": true} },
+  { "keys": ["shift+end"], "command": "move_to", "args": {"to": "eol", "extend": true} },
+  { "keys": ["super+home"], "command": "move_to", "args": {"to": "bof"} },
+  { "keys": ["super+end"], "command": "move_to", "args": {"to": "eof"} },
+  { "keys": ["shift+super+home"], "command": "move_to", "args": {"to": "bof", "extend": true} },
+  { "keys": ["shift+super+end"], "command": "move_to", "args": {"to": "eof", "extend": true} },
+
+  { "keys": ["super+shift+up"], "command": "duplicate_line" },
+  { "keys": ["super+shift+down"], "command": "duplicate_line" },
+
+  { "keys": ["super+minus"], "command": "fold" },
+  { "keys": ["super+equals"], "command": "unfold" },
+  { "keys": ["super+shift+["], "command": "fold_by_level", "args": {"level": 2} },
+  { "keys": ["super+alt+["], "command": "fold_by_level", "args": {"level": 3} },
+  { "keys": ["shift+alt+["], "command": "fold_by_level", "args": {"level": 4} },
+  { "keys": ["super+shift+minus"], "command": "fold_all" },
+  { "keys": ["super+shift+equals"], "command": "unfold_all" },
+  
+  { "keys": ["super+alt+r"], "command": "buffer_scroll_re_fold" },
+
+  // { "keys": ["shift+enter"], "command": "insert", "args": {"characters": ";\n"} },
+
+  // HTML, XML (and handlebars!) close tag
+  { "keys": ["/"], "command": "close_tag", "args": { "insert_slash": true }, "context":
+    [
+      { "key": "selector", "operator": "equal", "operand": "(text.html, text.xml, text.hbs) - string - comment", "match_all": true },
+      { "key": "preceding_text", "operator": "regex_match", "operand": ".*<$", "match_all": true },
+      { "key": "setting.auto_close_tags" }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+Bacon ipsum dolor sit amet exercitation pork loin ut eiusmod nisi, laboris drumstick in andouille sirloin beef ribs commodo. Elit proident shoulder capicola ham pork belly sint laborum duis venison officia ham hock swine voluptate kielbasa. Non enim mollit rump, pancetta tongue dolore beef consequat irure sed. Turkey fatback dolor, shank consequat irure tri-tip ex pastrami incididunt leberkas. Elit swine sed, veniam eiusmod andouille pork.
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>baconp</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
+<!-- meaty goodness from http://baconipsum.com -->

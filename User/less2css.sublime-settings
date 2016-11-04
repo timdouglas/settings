@@ -1,0 +1,7 @@
+{
+	"lessBaseDir": "/Users/tim/workspace/jinx/web/css",
+	"minify": true,
+	"showErrorWithWindow": true,
+	"checkImports": true,
+  "minName": false
+}

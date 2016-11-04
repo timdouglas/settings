@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+Bacon ipsum dolor sit amet exercitation pork loin ut eiusmod nisi, laboris drumstick in andouille sirloin beef ribs commodo.
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>bacons</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
+<!-- meaty goodness from http://baconipsum.com -->
