@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>Chrome fixes for Kinesis hot keys</name>
+    <identifier>private.app_chrome_shortcuts_alt_to_cmd</identifier>
+    <only>GOOGLE_CHROME</only>
+    <appendix>Change Web Back (alt+left) to Cmd+left</appendix>
+    <appendix>Change Web Forward (alt+right) to Cmd+right</appendix>
+    <appendix>Change Web Home (alt+home) to New Tab (Cmd+t)</appendix>
+    <autogen>
+      __KeyToKey__ 
+      KeyCode::CURSOR_LEFT, ModifierFlag::OPTION_L,
+      KeyCode::CURSOR_LEFT, ModifierFlag::COMMAND_L
+    </autogen>
+    <autogen>
+      __KeyToKey__ 
+      KeyCode::CURSOR_RIGHT, ModifierFlag::OPTION_L,
+      KeyCode::CURSOR_RIGHT, ModifierFlag::COMMAND_L
+    </autogen>
+    <autogen>
+      __KeyToKey__
+      KeyCode::HOME, ModifierFlag::OPTION_L,
+      KeyCode::T, ModifierFlag::COMMAND_L
+    </autogen>
+  </item>
+  
+  <item>
+    <name>Windows Application Key to Play/Pause</name>
+    <identifier>private.windows_app_to_play</identifier>
+    <appendix>Windows Application Key to Play/Pause</appendix>
+    <autogen>
+      __KeyToKey__ 
+      KeyCode::PC_APPLICATION,
+      KeyCode::VK_CONSUMERKEY_MUSIC_PLAY
+    </autogen>
+  </item>
+</root>
