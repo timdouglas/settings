@@ -1,0 +1,24 @@
+[user]
+	name = Tim Douglas
+	email = tim@actual-experience.com
+[core]
+	editor = /usr/bin/vim
+[push]
+	default = matching
+[alias]
+	psuh = push
+  pushj = push
+  pshu = push
+  puhs = push
+  statsu = status
+	oops = commit --amend
+	s = status
+	a = add
+	aa = add -A
+	b = branch
+  bb = branch -a
+  p = push
+  pl = pull
+	c = commit
+  ca = commit -a
+  
